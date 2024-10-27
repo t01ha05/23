@@ -10,9 +10,29 @@ private:
     string name;
     int age;
     string color;
+
 public: 
-    Goat()                          { name = ""; age = 0; color = ""; }
-    // write three more constructors
+    //default constructor
+    Goat() {
+        name = "";
+        age = 0;
+        color = "";
+    }
+    Goat(string n) {
+        name = n;
+        age = 0; //setting age to 0
+        color = ""; //setting color to empty string
+    }
+    Goat(string n, int a) {
+        name = n;
+        age = a;
+        color = ""; //setting color to empty string
+    }
+    Goat(string n, int a, string c) {
+        name = n;
+        age = a;
+        color = c;
+    }
 
     // setters and getters
     void set_name(string n)         { name = n; };

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/t01ha/projects/23",
-      "program": "c:/Users/t01ha/projects/23/build/Debug/outDebug",
+      "cwd": "c:/Users/t01ha/projects/23/.vscode",
+      "program": "c:/Users/t01ha/projects/23/.vscode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
